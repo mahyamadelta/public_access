@@ -21,7 +21,7 @@ DEFAULT_LON = 107.01397242039592
 # SETUP TAMPILAN (UI)
 # =========================
 st.set_page_config(
-    page_title="Bekasi Air Watch",
+    page_title="Terminal Bekasi Air Watch",
     page_icon="🌿",
     layout="centered",
     initial_sidebar_state="collapsed"
@@ -245,3 +245,4 @@ st.caption("© 2026 Project Tralalilo Trolia | Powered by ESP32 & Streamlit")
 time.sleep(3)
 
 st.rerun()
+
