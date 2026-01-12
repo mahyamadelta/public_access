@@ -14,8 +14,8 @@ MQTT_BROKER = "broker.hivemq.com"
 MQTT_PORT = 1883
 MQTT_TOPIC = "project/tralalilo_trolia/sensor"
 
-DEFAULT_LAT = -6.2374
-DEFAULT_LON = 106.9930
+DEFAULT_LAT = -6.249526003104378
+DEFAULT_LON = 107.01397242039592
 
 # =========================
 # SETUP TAMPILAN (UI)
@@ -243,4 +243,5 @@ st.caption("© 2026 Project Tralalilo Trolia | Powered by ESP32 & Streamlit")
 
 # Auto Refresh
 time.sleep(3)
+
 st.rerun()
